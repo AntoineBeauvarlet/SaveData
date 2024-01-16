@@ -23,5 +23,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders/>
   <publishers/>
-  <buildWrappers/>
+  <buildWrappers>
+    <hudson.tasks.AntWrapper plugin="ant@497.v94e7d9fffa_b_9"/>
+  </buildWrappers>
 </project>
